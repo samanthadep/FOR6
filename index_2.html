@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <!--CDN Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="card-container">
+    <div class="container">
+        <div class="log-card">
+    <p class="heading">Welcome</p>
+
+    <form action="home.html" method="post"> 
+      <div class="input-group">
+          <p class="text">Email</p>
+          <input class="input" type="email" name="email" placeholder="Enter Email" required> 
+          <p class="text">Password</p>
+          <input class="input" type="password" name="password" placeholder="Enter Password" required> 
+      </div>
+
+      <div class="password-group">
+          <div class="checkbox-group">
+              <input type="checkbox">
+              <label class="label">Remember Me</label>
+          </div>
+      </div>
+
+      <button class="btn" type="submit">Sign In</button>
+    </form>
+</div>
+    </div>
+</div> 
+</body>
+</html>
